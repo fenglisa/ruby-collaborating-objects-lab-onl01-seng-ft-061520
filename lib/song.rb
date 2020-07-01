@@ -27,7 +27,7 @@ class Song
     genre = file[2]
     
     song = self.new(song_name)
-    
+    artist = Artist.new(artist_name)
     song.artist = artist
     song
   end
